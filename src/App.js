@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   const [error, setError] = React.useState()
   const [isEnabled,setEnabled] = React.useState(false)
-  const videoRef = React.useRef(null)
+  const videoRef = React.useRef(null);
   const streamRef = React.useRef(null)
 
   const startStream = () => {
